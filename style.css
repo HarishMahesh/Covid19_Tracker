@@ -1,0 +1,86 @@
+.heading{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #0099cc;
+    color: ghostwhite;
+}
+body{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.heading >img{
+    height: 100%;
+    width: 110px;
+}
+
+.covid-info{
+    background-color: #000404;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.covid-info >h5{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff6347d6;
+    font-family: 'Roboto Slab', serif;
+}
+
+.covid-info>p{
+    margin: 0;
+    padding-left: 15px;
+    color: #7ed873d4;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.country-lable{
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.last-updated{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.search-box{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box > select{
+    width: 75%;
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-btn{
+    font-family: 'Roboto Slab', serif;
+    background-color: #0099cc;
+    color: ghostwhite;
+    border: none;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
